@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "receivers",
+						"type": "address[]"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Ether-Distribution.sol": "MultiSend"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Ether-Distribution.sol": {
+			"keccak256": "0x36fb4348067659970a0ef342721f95cc46be15dc319c3ae42a78957531064c33",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://63ef563f30da4130625ae711b401209eec2c170c2b302690026b96c9eef1a7bc",
+				"dweb:/ipfs/QmXMpxbbczTH34cH7M6zD4FH3LpFQ8gsXTduwKy1PhvFaz"
+			]
+		}
+	},
+	"version": 1
+}

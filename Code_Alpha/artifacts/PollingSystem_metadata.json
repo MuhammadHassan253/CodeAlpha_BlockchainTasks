@@ -1,67 +1,41 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "_title",
 						"type": "string"
 					},
 					{
-						"internalType": "uint256",
-						"name": "_price",
-						"type": "uint256"
+						"internalType": "string[]",
+						"name": "_options",
+						"type": "string[]"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_expiryDate",
+						"name": "_duration",
 						"type": "uint256"
 					}
 				],
-				"name": "addMadicine",
+				"name": "createPoll",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_index",
-						"type": "uint256"
-					}
-				],
-				"name": "getMedicine",
+				"inputs": [],
+				"name": "getWinner",
 				"outputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "winner",
 						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -69,15 +43,33 @@
 			},
 			{
 				"inputs": [],
-				"name": "totalmedicine",
+				"name": "poll",
 				"outputs": [
 					{
+						"internalType": "string",
+						"name": "title",
+						"type": "string"
+					},
+					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "endTime",
 						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "optionIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "vote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -94,9 +86,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Project/madicanTracker(1).sol": "MedicineTracker"
+			"Polling-System.sol": "PollingSystem"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -108,12 +100,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Project/madicanTracker(1).sol": {
-			"keccak256": "0x6e86708d8c0271a55e419fadb8d1a27590eb363131bb6cea96609b8053b2bc8e",
+		"Polling-System.sol": {
+			"keccak256": "0x82a6ad985a3e0087430279b28d327cb74aca751f59ad3e7fecf512893de9b7a5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ec1fae5cf6a75be9c6eb62d1de82cb0778b5693aa66b26cae501c50778483cd3",
-				"dweb:/ipfs/QmU1eckqpg7iH4tTyMmbgjU1A8jyhGLrSKJC2o6mxAYyMc"
+				"bzz-raw://a3109773d911f9709abdffcd12b207b0452abab8e55038051433048e7e93ea59",
+				"dweb:/ipfs/QmX8wwLENBMv8RKPJfkBo8bXGqkF44dZZeXBPfDcnMqLS9"
 			]
 		}
 	},
