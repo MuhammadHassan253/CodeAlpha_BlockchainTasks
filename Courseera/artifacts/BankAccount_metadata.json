@@ -1,37 +1,37 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "add",
-				"outputs": [
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_initialDeposit",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "createAccount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num2",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "add",
+				"name": "depositMoney",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,7 +39,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -56,9 +56,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"local variable and parameter function(3).sol": "addition"
+			"LastpracticeM4.sol": "BankAccount"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -70,12 +70,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"local variable and parameter function(3).sol": {
-			"keccak256": "0x871db50364c08a9ef04a38d4598d88a3fd32950cf4c31291cefd6aab8dab91b7",
+		"LastpracticeM4.sol": {
+			"keccak256": "0x579c97698e429eff43810bb5740365ed2cc19c871bf24bd3f73d30ded6da7c17",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da0d6508ace65277542c91236679e675ddf4db8b3e6dd168099daaa38b76957c",
-				"dweb:/ipfs/QmYSsdzTeWJqQAeroHZPQLDqeWotRfYzy9cqDyZN2KKsYo"
+				"bzz-raw://035ada3c52c89dcc2046a2c4b779fa226da37ab49b71bf73ee191f6f2d1b9f04",
+				"dweb:/ipfs/QmeE2UL7NUzRTbsCMoAb8UUcKf1rENGoAA51WrTjD3K8P9"
 			]
 		}
 	},

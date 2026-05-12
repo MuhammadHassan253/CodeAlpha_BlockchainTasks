@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "neBalance",
+						"type": "uint256"
+					}
+				],
+				"name": "updateBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Module 2/Exercise.sol": "LedgerBalance"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Module 2/Exercise.sol": {
+			"keccak256": "0x6a7b8b3d1b5166d72133f8089eb355cd832cf25096b6ed0a6023e6ebe7daa301",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5c5a72021bb761dde2bcc2948c258240861bc9d34ef7eafa308aab5106553141",
+				"dweb:/ipfs/Qme57Ne2fiYf7dLxCyuGZxcgLWrH1sH1uhvMrcKdsGnkN3"
+			]
+		}
+	},
+	"version": 1
+}

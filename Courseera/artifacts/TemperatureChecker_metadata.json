@@ -1,37 +1,39 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "add",
+				"name": "checkWeather",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num2",
+						"name": "_temp",
 						"type": "uint256"
 					}
 				],
-				"name": "add",
+				"name": "setTemperature",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "temperature",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,7 +41,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -56,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"local variable and parameter function(3).sol": "addition"
+			"11-4-26.sol": "TemperatureChecker"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -70,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"local variable and parameter function(3).sol": {
-			"keccak256": "0x871db50364c08a9ef04a38d4598d88a3fd32950cf4c31291cefd6aab8dab91b7",
+		"11-4-26.sol": {
+			"keccak256": "0x59c59b649107991d34d9469cfc8dc55f75704abe80738f66ed66235f6825f561",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da0d6508ace65277542c91236679e675ddf4db8b3e6dd168099daaa38b76957c",
-				"dweb:/ipfs/QmYSsdzTeWJqQAeroHZPQLDqeWotRfYzy9cqDyZN2KKsYo"
+				"bzz-raw://3dc87c48362074b0912c00ba6e74115a80b2db5ecb226f5f082beb7a645636db",
+				"dweb:/ipfs/QmZ6SbK33aD7hrDd58QZbkzyrQLrSTSuSWLQiwbvwzzmR4"
 			]
 		}
 	},

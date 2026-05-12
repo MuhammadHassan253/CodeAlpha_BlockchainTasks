@@ -1,13 +1,24 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "add",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					}
+				],
+				"name": "Subtract",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,12 +33,12 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num1",
+						"name": "a",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_num2",
+						"name": "b",
 						"type": "uint256"
 					}
 				],
@@ -56,9 +67,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"local variable and parameter function(3).sol": "addition"
+			"practice18-3.sol": "Calculator"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -70,12 +81,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"local variable and parameter function(3).sol": {
-			"keccak256": "0x871db50364c08a9ef04a38d4598d88a3fd32950cf4c31291cefd6aab8dab91b7",
+		"practice18-3.sol": {
+			"keccak256": "0xc966540bde5a365b68903d859054d2594bc012435b998045f3fa561148f926c5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da0d6508ace65277542c91236679e675ddf4db8b3e6dd168099daaa38b76957c",
-				"dweb:/ipfs/QmYSsdzTeWJqQAeroHZPQLDqeWotRfYzy9cqDyZN2KKsYo"
+				"bzz-raw://f8305b28b6bc1c32924c5d6d7b1bf734685f05cf98d8f70b7ca5d5a05d28c065",
+				"dweb:/ipfs/QmTfxsWW8cZo1QyNMUgBWYqYLLtSqsHxLaAgKcJNxQnPpr"
 			]
 		}
 	},

@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
@@ -15,23 +15,12 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num2",
-						"type": "uint256"
-					}
-				],
-				"name": "add",
+				"inputs": [],
+				"name": "subtract",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,7 +28,25 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testOperations",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -56,9 +63,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"local variable and parameter function(3).sol": "addition"
+			"11-4-26.sol": "MathOperations"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -70,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"local variable and parameter function(3).sol": {
-			"keccak256": "0x871db50364c08a9ef04a38d4598d88a3fd32950cf4c31291cefd6aab8dab91b7",
+		"11-4-26.sol": {
+			"keccak256": "0x5c6a715866495e45beda9cb27f1ffe01f34c1903df996e27f4da72421c3c9ebb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da0d6508ace65277542c91236679e675ddf4db8b3e6dd168099daaa38b76957c",
-				"dweb:/ipfs/QmYSsdzTeWJqQAeroHZPQLDqeWotRfYzy9cqDyZN2KKsYo"
+				"bzz-raw://de640bb6b66d56ef3fcccc03a98c4b4ba7d7d7d14a8121d2437c68808ed88e74",
+				"dweb:/ipfs/QmQm85xzdkqdTW2diZ3jshSh2FzZM724uf9s4nrC7MS95T"
 			]
 		}
 	},

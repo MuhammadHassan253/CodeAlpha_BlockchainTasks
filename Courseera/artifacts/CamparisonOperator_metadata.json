@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "comp",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"camparisonOperaator.sol": "CamparisonOperator"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"camparisonOperaator.sol": {
+			"keccak256": "0x8029a13f9bffb30622ffd758c2f6d8a280a9240d16450af06426d07bc8900c51",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2f8bbf4b5b2a38e1ad6184f8a21dce33dbfab2c5846e4667f028be8ef81ef308",
+				"dweb:/ipfs/QmNsavsHjogSYefQ5VdRGqJcLPSfc1Kwzmkmwzgsjg4gzq"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.3+commit.8d00100c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Module 2/Exercise3returnmultiple.sol": "SimpleBank"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Module 2/Exercise3returnmultiple.sol": {
+			"keccak256": "0xca8080747b67ff3e23e20cfb59183d5fdc0640628a3abd8574e3563c4af6db2a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d33d959dac03d36270970f92f4fe0d3f4b2b420613c83ca02b9a9405d942c146",
+				"dweb:/ipfs/QmX8cPpTKXnze5EiQ5djBy5aHwPv54nDEYKkvMYgXfwtvw"
+			]
+		}
+	},
+	"version": 1
+}

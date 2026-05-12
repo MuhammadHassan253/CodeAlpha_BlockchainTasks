@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Module 1/Struct.sol": "newMovie"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Module 1/Struct.sol": {
+			"keccak256": "0x5872d70cbca23bd17b88af5e2334a76816d7b0dc5dd81183cc36dc3439360f80",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a864c23b3e56ffffd07ee9c2e29da60515743f56c5edc04691a6a2376945df56",
+				"dweb:/ipfs/QmV5io7M3n5coSCVCos8oC559We9L6gddzXF8DtThBVYS8"
+			]
+		}
+	},
+	"version": 1
+}

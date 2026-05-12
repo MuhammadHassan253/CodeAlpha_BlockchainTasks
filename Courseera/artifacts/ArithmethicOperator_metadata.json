@@ -1,13 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "add",
+				"name": "EX1",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,23 +15,12 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num2",
-						"type": "uint256"
-					}
-				],
-				"name": "add",
+				"inputs": [],
+				"name": "EX2",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,7 +28,33 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "EX3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "EX4",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -56,9 +71,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"local variable and parameter function(3).sol": "addition"
+			"14-4-26.sol": "ArithmethicOperator"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -70,12 +85,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"local variable and parameter function(3).sol": {
-			"keccak256": "0x871db50364c08a9ef04a38d4598d88a3fd32950cf4c31291cefd6aab8dab91b7",
+		"14-4-26.sol": {
+			"keccak256": "0xe55e38eddf573bda559b9ed6910cc0f080ee47c947059529db4dce0977b74200",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da0d6508ace65277542c91236679e675ddf4db8b3e6dd168099daaa38b76957c",
-				"dweb:/ipfs/QmYSsdzTeWJqQAeroHZPQLDqeWotRfYzy9cqDyZN2KKsYo"
+				"bzz-raw://5d0cb0ed520b6bae9d1e37e4a0abd76aad5e349a9a0363d3a756c1c552c6d010",
+				"dweb:/ipfs/QmSvn9XFsfgYv6tHeRNzCjpLLzW4Gjayx1CawCxZ5UsSfz"
 			]
 		}
 	},

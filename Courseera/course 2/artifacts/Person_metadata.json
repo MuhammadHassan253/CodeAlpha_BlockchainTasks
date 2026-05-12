@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Module 1/day2practice.sol": "Person"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Module 1/day2practice.sol": {
+			"keccak256": "0x623cdf4e14e10d5d06431bcf9ccbc8ced94fa705111320f5c96ee297e0788c8c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://073c9ef0e4198b4c9d044487eae83164e86a54c8139854ba39d7f50c9bdc35fc",
+				"dweb:/ipfs/QmYDbRsqZrTxTwZ1ptvMP5onD7qyFSxxoXwmCWkuoRM2DS"
+			]
+		}
+	},
+	"version": 1
+}

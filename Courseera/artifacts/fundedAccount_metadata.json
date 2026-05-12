@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "account",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fundedaccount.sol": "fundedAccount"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fundedaccount.sol": {
+			"keccak256": "0x3154611f40034fa66a63842245b154d8b2a3df825d2c939ab7c142abd38a3ff2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e354dacf4ce33e094df1f10e434c90a2b822f0fe11ce0b9570dd7eea2ba5d5e5",
+				"dweb:/ipfs/QmS6ENQ38hnbDik9NrmZExKKAUAYyswTPRpTr6rgDAvU9Y"
+			]
+		}
+	},
+	"version": 1
+}

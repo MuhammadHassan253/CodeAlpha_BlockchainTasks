@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.3+commit.8d00100c"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Module 2/Exercise3returnmultiple.sol": "Owner"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Module 2/Exercise3returnmultiple.sol": {
+			"keccak256": "0xbe01fd50925df50107d52ec8de5b73294682f816d7ad45297099ed365e8ad2a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c1a082bd41edc20a97c10eb541784f76761faa485a73ff968bd8030809138a2e",
+				"dweb:/ipfs/QmeG1968HSFVX8fzoda2sCAPX9BW7SQe7tjdAaVpcHEBkR"
+			]
+		}
+	},
+	"version": 1
+}

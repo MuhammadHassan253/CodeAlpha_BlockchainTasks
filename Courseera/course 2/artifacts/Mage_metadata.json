@@ -1,0 +1,106 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_charterName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_lavel",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_magicPower",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getLavel",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMagicPower",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Module 1/day2practice.sol": "Mage"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Module 1/day2practice.sol": {
+			"keccak256": "0xf0076bd93102237bcbc0ce6f75368f4ee35a6d9c5e6b88fcf0423bd5efae4ea4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://56aac2b1b32e0dca3a3457eab9adc6e3c9a66d19b255a38911eaf683a44e9cb5",
+				"dweb:/ipfs/QmeGPv3jXAgvWVcpikqZ31tprfkXTk5HT5Ve3eCKTTdzYs"
+			]
+		}
+	},
+	"version": 1
+}

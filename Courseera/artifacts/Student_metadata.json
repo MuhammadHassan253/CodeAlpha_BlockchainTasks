@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isenrolled",
+						"type": "bool"
+					}
+				],
+				"name": "SetStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"9-march-26.sol": "Student"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"9-march-26.sol": {
+			"keccak256": "0xc955112a5b904f6aa9eef383b301596af0bf3e474f7ee34ac53f97bc88ede83f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dbb69e7671f32d88f5455ed5364a0de6d77ffd69a778535ca09fd6383ed863a9",
+				"dweb:/ipfs/QmTRtuVYe3bcbcQ1vSuiufBUudUDGF1v5TraXY5oFNDipr"
+			]
+		}
+	},
+	"version": 1
+}

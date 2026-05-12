@@ -7,11 +7,15 @@ contract Simplebank{
     string public bankname;
     uint private  totalBalance;
 
+    enum Accountstate{ACTIVE, FROZEN, CLOSED}
+
 
     struct Account{
         string Username;
         uint AccountNo;
         uint Deposit;
+        address owner;
+        Accountstate status;
     }
 
    //We use array to store multiple accounts in bank 
@@ -27,16 +31,16 @@ contract Simplebank{
 
      //this function is use to take data from user for accounts and store in array
     function createAccount(string memory _Username, uint _AccountNo,uint _Deposit) public {
-      Account memory newaccount= Account(_Username,_AccountNo,_Deposit);
+      Account memory newaccount= Account(_Username,_AccountNo,_Deposit,msg.sender,Accountstate.ACTIVE);
       account .push(newaccount); //push data to array
         totalAcounts +=1;//increment account by  reach transection
 
     }
 
     //this function take index number and give detail of that account which store on it 
-    function getbankinfo(uint _index)public view returns (string memory, uint , uint){
+    function getbankinfo(uint _index)public view returns (string memory, uint , uint,address,Accountstate){
         Account memory a= account [_index];
-      return (  a.Username,a.AccountNo,a.Deposit );
+      return (  a.Username,a.AccountNo,a.Deposit,a.owner,a.status );
     }
 
 

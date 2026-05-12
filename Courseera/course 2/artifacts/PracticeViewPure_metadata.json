@@ -1,13 +1,13 @@
 {
 	"compiler": {
-		"version": "0.8.29+commit.ab55807c"
+		"version": "0.8.30+commit.73712a01"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
 				"inputs": [],
-				"name": "add",
+				"name": "multiply",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -22,16 +22,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_num1",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_num2",
+						"name": "_value",
 						"type": "uint256"
 					}
 				],
-				"name": "add",
+				"name": "setValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valuePlusThree",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,7 +41,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -56,9 +58,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"local variable and parameter function(3).sol": "addition"
+			"Module 2/ViewAndPure.sol": "PracticeViewPure"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "prague",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -70,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"local variable and parameter function(3).sol": {
-			"keccak256": "0x871db50364c08a9ef04a38d4598d88a3fd32950cf4c31291cefd6aab8dab91b7",
+		"Module 2/ViewAndPure.sol": {
+			"keccak256": "0x6f8a920d5e40cf98c312b230d42e57605c132a191a0ead7faed6eb709fac5c0a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://da0d6508ace65277542c91236679e675ddf4db8b3e6dd168099daaa38b76957c",
-				"dweb:/ipfs/QmYSsdzTeWJqQAeroHZPQLDqeWotRfYzy9cqDyZN2KKsYo"
+				"bzz-raw://f7148683f8293c176fc6e7374c26cee1f2ff1e4828111d24be70d0db34aa97b3",
+				"dweb:/ipfs/QmTqiYooeTqv3hapDdLWQpfgBye6XtQvnHcx5hHHA9g3S1"
 			]
 		}
 	},

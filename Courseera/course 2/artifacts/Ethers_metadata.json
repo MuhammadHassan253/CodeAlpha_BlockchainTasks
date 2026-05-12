@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Module 1/Ether.sol": "Ethers"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Module 1/Ether.sol": {
+			"keccak256": "0xa4606426bd8fc158de5b3d354d4eb4a152d0c2d87ca8e045223d667ec5908e9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://da5fa731dd6e3a6fba69377a788d613af91f0be7af8e42aabad024dced9b1e78",
+				"dweb:/ipfs/QmXptE9dYvc5NsV5VboMUhuyVWhFGSyUYZWVdxidcPmRBi"
+			]
+		}
+	},
+	"version": 1
+}
